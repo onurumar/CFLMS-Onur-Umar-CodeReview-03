@@ -1,0 +1,352 @@
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin: 0 auto;
+}
+  @media screen and (max-width: 480px) {
+    .container {
+    width: 100%;
+  }
+  }
+
+/*--- Start Header and Navigation bar  ---*/
+
+
+
+.wholelogosection {
+  display:  flex;
+  flex-direction:  row;
+  justify-content:  space-around;
+  align-items:  center;
+  background:  #FFE6EE;
+}
+.logoarea img {
+  width: 70%;
+}
+.bannerarea img {
+  width:  100%;
+  align-items: flex-end;
+}
+
+#navigationbar a {
+  color: white;
+  padding: 7.5px 15px 7.5px 15px;
+  text-decoration: none;
+}
+
+.navigationbararea {
+  display:  flex;
+  flex-direction:  row;
+  background-color:  #8b0000;
+  color: white;
+  font-family:  arial;
+  font-size:  1.5em;
+}
+
+
+/*--- End Header and Navigation bar  ---*/
+
+/*--- Start Main Page  ---*/
+
+.insurancesection {
+  background-image: url(traffic-332857_1920.jpg);
+  padding-top: 1px;
+  padding-bottom:  1px;
+}
+.insidetext {
+  position: relative;
+  margin: 0 auto;
+  width: 80%;
+  background-color: white;
+  padding: 20px 0px 100px 0px;
+  bottom:  -80px;
+  border: 2px solid grey;
+  box-shadow: 2px 2px 2px 0px;
+}
+#carinsurancediv {
+  font-family: arial;
+  font-size: 2em;
+  color: white;
+  padding-left: 40px;
+}
+#customquotetext {
+  font-family:  arial;
+  font-size: 3.5em;
+  color: black;
+  text-align: center;
+}
+.table {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding: 10px 100px 10px 100px;
+}
+.inputrows {
+  display: flex;
+  flex-direction: row;
+  justify-content:  space-around;
+  padding: 20px;
+}
+#calculatebutton {
+  padding: 40px 75px 40px 75px;
+  height: 300px;
+  width: 300px;
+
+}
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+label {
+  font-family: arial;
+  font-size: 1.2em;
+}
+
+#result {
+  text-align: center;
+  font-size: 2.5em;
+  font-family: arial;
+  color: darkgreen;
+  padding: 10px 40px 10px 40px;
+}
+
+
+
+#printedcalculation {
+  font-family:  arial;
+  font-size: 20px;
+  color: green;
+  text-align: center;
+}
+
+
+input[type=button] {
+  width: 100%;  
+    padding: 14px 20px;
+    margin: 8px 0;
+    border:  none;
+    border-radius:  25px;
+    background-color: #3DEC55;
+    cursor: pointer;
+    color: white;
+    font-size: 2em;
+    font-family: arial;
+}
+
+input[type=button]:hover {
+  background-color: #45a049;
+  border-radius:  25px;
+  border: none;
+
+}
+
+  
+  @media screen and (max-width: 480px) {
+    #carinsurancediv {
+    font-size: 1.5em;
+    padding-left: 10px;
+  }
+    #customquotetext {
+    font-size: 2.5em;
+  }
+    .table {
+    padding: 0px;
+  }
+    .inputrows {
+    flex-direction: column;
+    padding: 1px;
+  }
+    #calculatebutton {
+    padding: 1px;
+  }
+    input[type=submit] {
+    width: 100%;  
+      padding: 5px 20px;
+      margin: 2px 0;
+      font-size: 1em;
+      font-family: arial;
+  }
+  } 
+
+
+
+
+.textsectioncarcoveragetext {
+  background-color: #CECECE;
+  text-align:  center;
+  border:  1px soid black;
+  font-family: arial;
+  font-size: 2em;
+  padding: 80px 0px 10px 0px;
+}
+#carcoveragetext {
+  font-size: 2em;
+}
+  
+  
+  @media screen and (max-width: 480px) {
+    .textsectioncarcoveragetext {
+    font-size: 1.3em;
+  }
+    #carcoveragetext {
+    font-size: 1.3em;
+  }
+  } 
+
+
+
+
+
+
+
+#standard {
+  font-size: 18px;
+  font-weight: bold;
+  color: darkblue;
+}
+
+
+#addon {
+  font-size: 18px;
+  font-weight: bold;
+  color: darkblue;
+}
+
+#firstcolumn {
+  font-family:  arial;
+  width: 300px;
+  float: left;
+  height: 300px;
+  margin: 10px;
+  margin-left: 200px;
+  padding: 10px;
+  box-shadow: 0px 4px 5px 1px #999999;
+  border-top: 2px solid black;
+}
+
+#secondcolumn {
+  font-family:  arial;
+  width: 300px;
+  float: left;
+  margin: 10px;
+  height: 300px;
+  margin:  10px;
+  margin-left: 250px;
+  padding: 10px;
+  box-shadow: 0px 4px 5px 1px #999999;
+  border-top: 2px solid black;
+}
+
+
+#earnedbenefitssection {
+  font-size: 1.1em;
+  font-weight: bold;
+  color: black;
+}
+#earnedbenefitstext {
+  padding-top: 20px;
+  color: grey;
+}
+
+
+#benefitssection {
+  font-size: 1.1em;
+  font-weight: bold;
+  color: black;
+}
+
+.maincolumns 
+
+
+
+li:before {
+  
+    color: #90D3D5;   
+    margin-left: 1em;
+    margin-right: 1.2em;
+}
+li {
+  margin: 10px 0px 10px 0px;
+}
+ul {
+   padding-left: 20px;
+   text-indent: 2px;
+   list-style: none;
+   list-style-position: outside;
+}
+
+
+  @media screen and (max-width: 480px) {
+    #firstcolumn, #secondcolumn  {
+    height: 380px;
+    margin:  4px;
+    padding: 4px;
+    box-shadow: 0px 4px 5px 1px #999999;
+    border-top: 2px solid black;
+  }
+ 
+    li:before {
+      margin-left: .5em;
+      margin-right: 0.9em;
+  }
+    li {
+    margin: 5px 0px 5px 0px;
+  }
+    ul {
+      padding-left: 10px;
+      text-indent: 2px;
+  }
+
+      #standard {
+    font-size: 1.2em;
+  }
+    #benefitssection {
+    font-size: .9em;
+  }
+    #benefitstext {
+    padding-top: 20px;
+    color: grey;
+  }
+  } 
+
+/*--- End Mainpage  ---*/
+
+
+/*--- Start Footer  ---*/
+.footer {
+  background-color: black;
+}
+#navigationfooter {
+  display: flex;
+  flex-flow: row;
+  font-family:  arial;
+  padding:  5px;
+  font-size:  1em;
+}
+#navigationfooter a {
+  color: white;
+  padding: 7.5px 15px 7.5px 15px;
+  text-decoration: none;
+}
+#navigationfooter a:hover {
+  background-color: #dddd;
+  color: black;
+}
+.logofooter img {
+  width: 25%;
+  display: block;
+  margin-left: auto;
+  margin-right: 20px;
+}
+.copyright {
+  text-align: center;
+  font-family: arial;
+  color: white; }
+/*--- End Footer  ---*/
